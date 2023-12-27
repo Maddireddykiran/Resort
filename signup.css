@@ -1,0 +1,122 @@
+
+        *{
+            margin: 0px;
+        }
+        body{
+            background-image: url("signupback.jpg");
+            background-size: cover;
+            background-position: fixed;
+
+        }
+      
+        .form-control{
+            background-image:linear-gradient(90deg,skyblue,pink);
+            width:500px;
+            height:650px;
+            margin-top: 30px;
+            opacity: 0.9;
+            box-shadow: 0 5px 10px wheat;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .fname label{
+            display:block;
+            font-size:25px;
+            margin-left:-200px;
+            opacity:0.8;}
+         .lname label{
+            display:block;
+            font-size:25px;
+            margin-left:-210px;
+            opacity:0.8;
+            margin-top:10px}
+         .cpass label{
+            display:block;
+            font-size:25px;
+            margin-left:-140px;
+            opacity:0.8;
+            margin-top:10px}
+          .conpass label{
+            display:block;
+            font-size:25px;
+            margin-left:-130px;
+            opacity:0.8;
+            margin-top:10px}
+          .Email label{
+            display:block;
+            font-size:25px;
+            margin-left:-150px;
+            opacity:0.8;
+            margin-top:10px}
+          .fname input:hover{
+            background-image:linear-gradient(90deg,white ,skyblue);}
+           .lname input:hover{
+            background-image:linear-gradient(90deg,white ,skyblue);}
+            .Email input:hover{
+                background-image:linear-gradient(90deg,white ,skyblue);}
+             .cpass input:hover{
+                background-image:linear-gradient(90deg,white ,skyblue);}
+              .conpass input:hover{
+                background-image:linear-gradient(90deg,white ,skyblue);}
+              .signup button{
+                background-image:linear-gradient(to bottom right,white,blue)
+                ;box-shadow:0 5px 10px black;
+                width:130px;
+                height:40px;
+                margin-top:20px;
+                font-size:18px;
+                margin-left:-20px}
+              .fname input{
+                box-shadow:0 5px 10px black;
+                width:300px;
+                height:35px;
+                margin-left:-25px}
+              .lname input{
+                box-shadow:0 5px 10px black;
+                width:300px;
+                height:35px;
+                margin-left:-25px}
+              .Email input{
+                box-shadow:0 5px 10px black;
+                width:300px;
+                height:35px;
+                margin-left:-25px}
+              .cpass input{
+                box-shadow:0 5px 10px black;
+                width:300px;
+                height:35px;
+                margin-left:-25px}
+              .conpass input{
+                box-shadow:0 5px 10px black;
+                width:300px;
+                height:35px;
+                margin-left:-25px}
+              nav a{
+                text-decoration: none;
+                margin:35px;
+                display:inline;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:25px;
+                color:wheat;
+                padding-left: 5px;
+                opacity: 0.6;}
+              nav{padding-top:5px;
+                padding-bottom:5px;
+                margin-left:0px;
+                margin-left:-9px;
+                background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+                width:inherit;
+                margin-right:-10px;}
+              header{font-family:'Times New Roman';
+                font-size:60px;
+                letter-spacing: 18px;
+                color:black;
+                background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+                padding-top:15px;
+                margin-left:-10px;
+                margin-right:-10px;
+                padding-bottom: 10px;
+                text-align:center}
+

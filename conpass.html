@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+  <link rel="stylesheet" href="conpass.css">
+</head>
+<body>
+<center>
+<div class="form-control">
+    <form>
+        <div class="header">
+        <p  >MINE BEACH RESORT</p>
+        </div>
+        <div class="cpass">
+            <p>
+                <label>New Password</label><br>
+                <input type="password" maxlength="12">
+            </p>
+        </div>
+        <div class="conpass">
+                   <label>Confirm Password</label>
+                   <input type="password"  id="myInput" maxlength="12">
+     </div>
+     <div class="toogle">
+                          <input type="checkbox" onclick="myFunction()" ><p>Show Password</p>
+    </div>
+    <div class="reset">
+        <button type="button"  onclick="msg()">Reset</button>
+         <p id="message" style="display: none;color:darkgreen;font-size:20px">
+            You password reseted succesfully
+         </p>
+        
+    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+    function msg()
+    {
+        document.getElementById("message").style.display="block"; 
+    }
+    
+
+    </script>
+    </form>
+</div>
+</center>
+</body>
+</html> 

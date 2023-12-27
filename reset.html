@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+  
+  <link rel="stylesheet" href="reset.css">
+  <script>
+  function display(){
+     document.getElementById("hide").style.display="block";}
+     var timer = setTimeout(function() {
+      window.open("home.html");
+  }, 5000);
+  </script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <header>MINE  <span style="color:cyan">BEACH</span>  RESORT</header>
+  
+    <nav>
+        <a href="home.html"  target="_self">HOME</a>
+        <a href="about.html" target="_self">ABOUT</a>
+        <a href="accomodation.html" target="_self" >ACCOMODATION</a>
+        <a href="menu.html" target="_self" >DINING</a>
+        <a href="reservation.html" target="_self" >RESERVATIONS</a>
+        <a href="contact.html"  target="_self"  >CONTACT</a>
+        </nav>  
+    
+        <div class="main-container">
+          <div align="center" class="form-control">
+            <form><br>
+                <div class="pr">
+                    <h1>Reset your password</h1>
+                </div>
+                <div class="Email">
+                    <label>Email</label>
+                    <input type="type" class="email" placeholder="enter your email">
+                    </div>
+               <div class="reset">
+                 <button onclick="display()">Reset</button>
+               </div>
+               <br>
+               <p id="hide" style="display:none;color:black"  >Confirmation link sent to your mail</p>
+            </form>
+        </div>
+        </div>
+          
+</body>
+</html>
+

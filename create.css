@@ -1,0 +1,199 @@
+
+*{
+  margin: 0px;
+}
+*::-webkit-scrollbar {
+width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+background-image: linear-gradient(45deg,#071C6D,#7BC0F7) ;
+}
+
+*::-webkit-scrollbar-thumb {
+background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+border-radius: 20px;
+border: 2px solid wheat;
+}
+  body{
+      background-image: url("beach.jpg");
+      background-size: cover;
+      background-position: center;
+      width:1400px;
+      height:1080px;
+      opacity: 0.9;
+    }
+    #he2{
+      font-size:50px;
+      padding-top:20px;
+      text-align: center;
+      color: whitesmoke;
+      opacity: 0.8;
+      letter-spacing: 10px;
+            }
+  .social{
+      margin-top: -70px;
+      display:flex;
+      flex-direction: row;
+      gap:30px;
+      float:right;
+      opacity: 0.7;
+  }
+  #he{
+      text-align: left;
+      margin: 10px 20px;
+      opacity: 0.7;
+      width:200px;
+      
+      
+    
+  }   
+  a{
+      font-size: 25px;
+      color:white;
+      opacity: 0.7;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+  }
+  a::after{
+    content:'';
+    position:absolute;
+    left:0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    bottom: -3px;
+    transition: 0.5s;
+  }
+  a:hover::after{
+    width: 80px;
+  }
+  #acc::after{
+    content:'';
+    position:absolute;
+    left:0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    bottom: -3px;
+    transition: 0.5s;
+  }
+  #acc:hover::after{
+    width: 200px;
+  }
+  #acc2::after{
+    content:'';
+    position:absolute;
+    left:0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    bottom: -3px;
+    transition: 0.5s;
+  }
+  #acc2:hover::after{
+    width: 190px;
+  }
+  #contact::after{
+    content:'';
+    position:absolute;
+    left:0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    bottom: -3px;
+    transition: 0.5s;
+  }
+  #contact:hover::after{
+    width: 120px;
+  }
+.navi nav{
+display: flex;
+flex-direction:row;
+justify-content:space-around;
+margin-top:20px;
+}
+.booking{
+ float: right;
+margin:30px 30px;
+  background-image:url("black.jpg");
+  height: 800px;
+  width: 700px;
+  opacity: 0.8;
+  color:white;
+  box-shadow: 0 5px 10px violet;
+}
+h1{
+  text-align: center;
+
+}
+label{
+  padding-left: 40px;
+  font-size: 25px;
+}
+#in{
+  margin:20px 35px;
+  width:250px;
+  height: 30px;;
+  font-size: 15px;
+ 
+}
+#mail{
+  margin:20px 35px;
+  width:600px;
+  height: 30px;;
+  font-size: 15px;
+
+}
+#sel{
+  width:300px;
+  height: 30px;
+  margin:20px 35px;
+  font-size: 15px;
+}
+#dt{
+  width:200px;
+  height: 30px;
+  margin:20px 35px;
+  font-size: 15px;
+}
+#sel2{
+  width:100px;
+  height: 30px;
+  margin:20px 35px;
+  font-size: 15px;
+}
+#bt{
+  width:150px;
+  height: 50px;
+  margin:20px 35px;
+  float: right;
+  background-color:orangered;
+  color:white;
+  box-shadow: 0 5px 10px grey;
+  transition: 2s;
+}
+#bt:hover{
+  background-color: cyan;
+  color: black;
+
+}
+.con{
+  width: 600px;
+ 
+  height: 40vh;
+  margin: 100px 50px;
+}
+#p1{
+  font-size: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+  color: white;
+}
+#sucess{
+font-size: 25px;
+text-align: center;
+margin-top: 30px;
+display: none;
+}

@@ -1,0 +1,139 @@
+
+*{
+  margin:0px;
+scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+background-image: linear-gradient(45deg,#071C6D,#7BC0F7) ;
+}
+
+*::-webkit-scrollbar-thumb {
+background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+border-radius: 20px;
+border: 2px solid wheat;
+}
+  .outer{margin-top:-50px;
+      background-image:url("seaback.jpg");
+      height:1580px;
+      width:1440px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+     
+  }
+  
+.food{width:700px;
+  height:900px;}
+.logo header{
+  font-family: Cursive;
+  font-size:50px;
+  padding:10px 10px;
+
+}
+.logo button{
+ margin:20px 20px;
+ width:150px;
+ height:50px;
+ border-radius: 20px;
+ font-size:25px;
+ padding-top:-5px;
+ background:linear-gradient(45deg,deeppink,skyblue);
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+h1{
+  animation:animate 1.5s linear infinite;
+  color:black;
+  text-align:center;
+  color: orangered;
+  margin-top:200px;
+}
+@keyframes animate
+{
+  0%{
+      opacity: 0;
+  }
+  50%
+  {
+      opacity: 0.7;
+  }
+  100%
+  {
+      opacity: 0;
+  }
+}
+nav a{padding-left: 30px;
+    text-decoration: none;
+    margin:35px;
+    display:inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px; 
+    opacity: 0.6;
+    color:white}
+nav{
+    padding: 10px 0px;
+    margin-right:-9px;
+    margin-left:-9px;
+    background-image:linear-gradient(45deg,#071C6D,#7BC0F7);}
+#he{
+    font-family:'Times New Roman';
+    font-size:60px;
+    letter-spacing: 18px;
+    margin-top:5px;
+    color:black;
+    background-image:linear-gradient(45deg,#071C6D,#7BC0F7 );
+    padding-top:15px;
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-bottom: 10px;
+    text-align:center;}
+#blink{
+animation: animate 2s linear infinite;
+color:black;
+}
+.contact{
+background-color: #222222;
+width:inherit;
+height:200px;
+padding:100px 100px;
+display:flex;
+flex-direction: row;
+justify-content:space-evenly;
+
+}
+.explore a{
+display: block;
+padding:5px 0px;
+text-decoration: none;
+font-size:20px;
+color:white;
+opacity: 0.5;
+}
+.info{
+
+color:white;
+font-size:25px;
+font-family: 'Times New Roman';
+}
+.info p{
+font-size: 17px;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+opacity: 0.5;
+margin-top: 10px;
+}
+.social{
+display:flex;
+flex-direction: row;
+gap:30px;
+margin-top:20px;
+}
+

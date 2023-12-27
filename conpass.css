@@ -1,0 +1,63 @@
+
+.header p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    opacity: 0.5;
+} 
+.cpass label
+{
+    display:block;
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin-bottom:1px;opacity: 0.5;
+}
+.conpass label
+{
+    margin-bottom:10px;
+    display:block;
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+.cpass input
+{
+    width:200px;
+    height:20px;
+    width:250px;
+    height:30px;
+    box-shadow:0 5px 10px black}
+.conpass input{
+    width:200px; 
+    height:20px;
+    width:250px;
+    height:30px;
+    box-shadow:0 5px 10px black}
+ .toogle input{
+    width:50px;
+    height:20px;
+    margin-left:-50px;
+    margin-top:10px
+}
+ .toogle p{
+    margin-left:90px;
+    margin-top:-22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ .reset button{
+    width:120px;
+    height:35px;
+    margin-left:-20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom right,deeppink,violet);
+    box-shadow:0 5px 10px black
+}
+ .form-control {
+    margin-top:150px;
+    background-image:linear-gradient(to right,red,white,deeppink);
+    width:500px;
+    height:500px;
+    padding-top:40px
+}
+ body{
+    background-image:linear-gradient(to right,deeppink,white,red)
+}

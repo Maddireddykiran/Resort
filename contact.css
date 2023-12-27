@@ -1,0 +1,107 @@
+
+      *{
+        margin: 0px;
+      }
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7) ;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+  border-radius: 20px;
+  border: 2px solid wheat;
+}
+    nav a{
+        padding-left: 30px;
+        text-decoration: none;
+        margin:35px;
+        display:inline;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:25px;
+         opacity: 0.6;
+         color:white}
+    nav{
+        padding-top:3px;
+        margin-right:-9px;
+        margin-left:-9px;
+        background-image:linear-gradient(45deg,#071C6D,#7BC0F7);}
+    header{
+        font-family:'Times New Roman';
+        font-size:60px;
+        letter-spacing: 18px;
+        margin-top:5px;
+        color:black;
+        background-image:linear-gradient(45deg,#071C6D,#7BC0F7 );
+        padding-top:15px;
+        margin-left:-10px;
+        margin-right:-10px;
+        padding-bottom: 10px;
+        text-align:center;}
+    .sticky{
+      background-image: url("contactback.jpg");   
+      width:1440px;
+      height:60vh;
+      background-size: cover;
+      background-position: center;  
+      position: -webkit-sticky;
+      position: sticky;
+      
+
+    }
+    .sticky-con p{
+      color:white;
+      text-align: left;
+      padding:200px 100px;
+      font-size: 15px;
+      opacity:0.9;
+    }
+    .container{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+     
+    }
+    .container1{
+      width:80vh;
+      height:60vh;
+    }
+    .container2{
+      width:80vh;
+      height:60vh;
+      
+    }
+    label{
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    input{
+      border: none;
+    }
+    button{
+      width:150px;
+      height:40px;
+      margin-top:80px;
+      background-color:chocolate;
+      color:wheat;
+     box-shadow: 0 5px 10px  black ; 
+    }
+    #blink{
+      animation: animate 2s linear infinite;
+      color:black;
+     }
+     @keyframes animate{
+      0%{
+        opacity: 0;
+      }
+      50%{
+        opacity: 0.7;
+      }
+      100%{
+        opacity: 0;
+      }
+     }

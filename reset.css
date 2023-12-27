@@ -1,0 +1,32 @@
+
+      *{
+        margin: 0px;
+      }
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7) ;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+  border-radius: 20px;
+  border: 2px solid wheat;
+}
+    nav a{padding-left: 30px;text-decoration: none;margin:35px;display:inline;font-family:Arial, Helvetica, sans-serif;font-size:25px; opacity: 0.6;color:white}
+    nav{padding-top:3px;margin-right:-9px;margin-left:-9px;background-image:linear-gradient(45deg,#071C6D,#7BC0F7);}
+    header{font-family:'Times New Roman';font-size:60px;letter-spacing: 18px;margin-top:5px;color:w;background-image:linear-gradient(45deg,#071C6D,#7BC0F7 );padding-top:15px;margin-left:-10px;margin-right:-10px;padding-bottom: 10px;text-align:center;}
+    .form-control{font-family:'Times New Roman';background-image:linear-gradient(to bottom left,rgb(0,255,255),#132D7B 70%);;height:340px;margin-left:430px;width:500px;position: relative;top:150px;color: white;}
+    .Email label{display:block;font-family:Arial, Helvetica, sans-serif;font-size:30px;margin-left:-0px;opacity:0.8}
+    .pr h1{font-size:40px;opacity:0.8}
+    .Email input{width:300px;box-shadow:0 5px 10px black;height:35px;margin-top:15px}
+    .reset button{font-family:Arial, Helvetica, sans-serif;height:35px;width:100px;margin-top:25px;box-shadow:0 5px 10px;background-image:linear-gradient(white,deeppink)}
+ .main-container{
+  background-image: url("pexel3.jpg");
+
+  background-size:cover;
+  width: 100%;
+  height: 80vh;
+ }

@@ -1,0 +1,297 @@
+
+      *{
+        margin: 0px;
+      }
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7) ;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+  border-radius: 20px;
+  border: 2px solid wheat;
+}
+    nav a{position:relative;
+        text-decoration: none;
+        margin:35px;
+        display:inline;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:25px;
+        color:wheat;
+        padding-left: 5px;
+        opacity: 0.6;}
+    nav{padding-top:3px;
+        padding-bottom:7px;
+        margin-left:0px;
+        margin-left:-9px;
+        background-image: linear-gradient(45deg,#071C6D,#7BC0F7);}
+    header{
+        position: relative;
+        font-family:'Times New Roman';
+        font-size:60px;
+        letter-spacing: 18px;
+        margin-top:5px;
+        color:black;
+        background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+        padding-top:15px;
+        margin-left:-10px;
+        padding-bottom: 10px;
+        text-align:center}
+    .dropdown button{
+        width:337px;
+        margin-top:-3px;background-color:#5D96D4;border-style:none;margin-bottom: -20px;height:46px;opacity:0.9;font-family:Arial, Helvetica, sans-serif;color:wheat;float:right;font-size: 20px;border-top-left-radius: 0px;border-bottom-left-radius: 0px;}
+   .dropdown:hover button{
+    background-color:#071C6D;
+   }
+   
+   .contact{
+    background-color: #222222;
+    width:inherit;
+    height:400px;
+    padding:100px 100px;
+    margin-top: -50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+   }
+   .explore a{
+    display: block;
+    padding:5px 0px;
+    text-decoration: none;
+    font-size:20px;
+   color:white;
+   opacity: 0.5;
+   }
+   .info{
+    
+    color:white;
+    font-size:25px;
+    font-family: 'Times New Roman';
+   }
+  .info p{
+    font-size: 17px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    margin-top: 10px;
+  }
+  .social{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top:20px;
+  }
+  #about::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #about:hover::after{
+width:90px;
+  }
+  #dining::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #dining:hover::after{
+width:90px;
+  }
+  #contact::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #contact:hover::after{
+width:120px;
+  }
+  #acc::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #acc:hover::after{
+width:210px;
+  }
+  #res::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #res:hover::after{
+width:190px;
+  }
+  @media all  and (max-width:600px) 
+  {
+    header{
+        font-family:'Times New Roman';
+        font-size:15px;
+        letter-spacing: 18px;
+        margin-top:5px;
+        color:black;
+        background-image: linear-gradient(45deg,#071C6D,#7BC0F7);
+        padding-top:15px;
+        padding-bottom: 10px;}
+    nav a{text-decoration: none;
+        margin:35px;
+        display:block;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:15px;
+        color:wheat;
+        opacity: 0.6;}
+    .dropdown button{
+        background-color:#071C6D;
+        margin:-30px 20px ;
+        width:160px;
+        height:50px;
+        border-style:none;
+        height:46px;
+        font-family:Arial, Helvetica, sans-serif;
+        color:wheat;
+        float:left;
+        font-size: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;}
+   .w-100{
+    width: 300px;
+    height: 400px;
+   }
+  
+   .contact{
+    background-color: #222222;
+    width:inherit;
+    height:900px;
+    padding:100px 100px;
+    margin-top: -50px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+   }
+   .explore a{
+    display: block;
+    padding:5px 0px;
+    text-decoration: none;
+    font-size:15px;
+   color:white;
+   opacity: 0.5;
+   }
+   .info{
+    
+    color:white;
+    font-size:25px;
+    font-family: 'Times New Roman';
+   }
+  .info p{
+    font-size: 17px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    margin-top: 10px;
+  }
+  .social{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top:20px;
+  }
+  #about::after{
+    position: absolute;
+    content:'awd';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+    
+  }
+  #about:hover::after{
+width:50px;
+
+  }
+  #dining::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #dining:hover::after{
+width:50px;
+  }
+  #contact::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-3px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #contact:hover::after{
+width:70px;
+
+  }
+  #acc::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #acc:hover::after{
+width:130px;
+  }
+  #res::after{
+    position: absolute;
+    content:'';
+    width:0px;
+    height:3px;
+    bottom:-5px;
+    background-color:#00FFFF;
+    left:0px;
+    transition: 0.5s;
+  }
+  #res:hover::after{
+width:110px;
+  }
+  }
+  
